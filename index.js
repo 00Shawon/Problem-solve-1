@@ -4,7 +4,6 @@ const reverse = (text)=> {
    return text.split('').reverse().join('')
 }
 const result = reverse('hello')
-console.log(result)
 
 
 
@@ -22,7 +21,9 @@ const CountVowel = (str) => {
     return num
    
 }  
-const NumberOfVowel = CountVowel('hello')
+const NumberOfVowel = CountVowel('hello Programming')
+
+
 
 
 //problem 3: Palindrome
@@ -37,6 +38,7 @@ return true
 }
 }
 
+
 //problem 4: Find The max 
 
 
@@ -48,6 +50,9 @@ const isMax = (nums) => {
     ) 
     return maxNum
     } 
+
+    // console.log(isMax(a));
+
 
     //problem 5: remove the duplicate
 
@@ -78,6 +83,7 @@ const sumOfArray = (array) => {
     return sum
 }
 
+// console.log(sumOfArray(test))
 
 //Problem-7: find the even num 
 
@@ -88,10 +94,11 @@ const findEven = (arr) => {
         return evenArray
 }
 
+// console.log(findEven(test2))
 
 //Problem-8: capitalize first letter of each word
 
-const sentence = 'hello world '
+const sentence = 'hello world'
 
 const capitalizeEachWord = (text) => {
 const textArray = text.split(' ')
@@ -109,7 +116,7 @@ const factorial = (num) => {
     }
     return factorial
 }
-// console.log(factorial(4))
+// console.log(factorial(3))
 
 // problem- 10: print number 
 
